@@ -32,7 +32,7 @@ img {
         width: 200px;
         height: 200px;
         align-items: center;
-        /* background-color: red; */
+        justify-content: center;
         margin: 0 auto;
     }
 }
