@@ -1,3 +1,36 @@
+/* seccion grid */
+#grid-section {
+/* en grid se pueden usar las columnas y filas al mismo tiempo
+ */
+    background-color: red;
+    /* margin: 0 auto; */
+    width: 390px;
+}
+
+.grid-container {
+    background-color: yellow;
+    margin: 15px;
+    padding: 20px;
+    width: 320px;
+    display: grid;
+    /* cantidad de columnas y su tamaño */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid templ rows es por defecto 1
+    a cada linea */
+    grid-template-rows: 1fr 1fr;
+    /* el gap reemplaza al margen */
+    gap: 5px; 
+}
+
+.grid-items {
+    background-color: rgb(16, 143, 182);
+    /* margin: 10px; */
+    padding: 5px;
+}
+
+
+/* seccion similar a bitcoin */
+
 img {
     width: 100px;
 }
