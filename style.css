@@ -17,7 +17,11 @@
     grid-template-columns: 1fr 2fr 1fr;
     /* grid templ rows es por defecto 1
     a cada linea */
-    grid-template-rows: 1fr 1fr;
+
+    /* lo mismo pero con repeat() */
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-rows: repeat(2, 1fr);
+
     /* el gap reemplaza al margen */
     gap: 5px; 
 }
@@ -42,7 +46,8 @@
 
 }
 .item-3 {
-
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 .item-4 {
 
